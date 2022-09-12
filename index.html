@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-1 Practical Exam</title>
+    <!-- STYLE CSS LINK-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- FONTAWESOME LINK -->
+    <script src="https://kit.fontawesome.com/3c69dc53a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- MAIN START-->
+    <main class="container">
+        <!-- HEADER START-->
+        <header class="navbar">
+            <nav class="navbar-top">
+                <div class="logo">
+                    <img src="./images/amazon-logo.png" alt="nav-logo">
+                </div>
+                <div class="search">
+                    <div class="select-menu">
+                        <select id="All">
+                            <option value="All">All</option>
+                            <option value="PC">PC</option>
+                            <option value="Car">Car</option>
+                        </select>
+                    </div>
+                    <input type="search" class="search-input" placeholder="Search">
+                    <div class="icon-search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+                <div class="navbar-top-right">
+                    <div class="account">
+                        <div class="account-top">Hello HiCoders</div>
+                        <div class="account-bottom">
+                            <select id="my-account">
+                                <option value="my-account">My Account</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="basket">
+                        <div>
+                            <p>0</p>
+                        </div>
+                        <div><i class="fa-solid fa-cart-shopping"></i>
+                            <a href="#">Basket</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <nav class="navbar-bottom">
+                <ul>
+                    <li class="navbar-bottom-list">
+                        <a href="#" class="list-item active">Best Sellers</a>
+                        <a href="#" class="list-item">Gift Ideas</a>
+                        <a href="#" class="list-item">Customer Service</a>
+                        <a href="#" class="list-item">Music</a>
+                        <a href="#" class="list-item">PC</a>
+                        <a href="#" class="list-item">Books</a>
+                        <a href="#" class="list-item">Toys</a>
+                        <a href="#" class="list-item">Home</a>
+                        <a href="#" class="list-item">Garden</a>
+                        <a href="#" class="list-item">Electronics</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- HEADER END-->
+        <!-- BODY START-->
+        <section class="body-container">
+            <aside class="aside-menu">
+                <div class="aside-menu-categories">
+                    <div class="aside-menu-categories-title">
+                        <p>Categories</p>
+                        <hr>
+                    </div>
+                    <div class="aside-menu-categories-items">
+                        <div class="aside-menu-categories-item">
+                            <input type="checkbox" name="toys">
+                            <label for="toys">Toys</label>
+                        </div>
+                        <div class="aside-menu-categories-item">
+                            <input type="checkbox" name="c">
+                            <label for="computer">Computer</label>
+                        </div>
+                        <div class="aside-menu-categories-item">
+                            <input type="checkbox" name="phone">
+                            <label for="phone">Phone</label>
+                        </div>
+                        <div class="aside-menu-categories-item">
+                            <input type="checkbox" name="home">
+                            <label for="home">Home</label>
+                        </div>
+                        <div class="aside-menu-categories-item">
+                            <input type="checkbox" name="books">
+                            <label for="books">Books</label>
+                        </div>
+                        <div class="aside-menu-categories-item">
+                            <input type="checkbox" name="foods">
+                            <label for="foods">Foods</label>
+                        </div>
+                        <div class="aside-menu-categories-item">
+                            <input type="checkbox" name="garden">
+                            <label for="garden">Garden</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="aside-menu-price aside-menu-categories">
+                    <div class="aside-menu-price-title aside-menu-categories-title">
+                        <p>Price</p>
+                        <hr>
+                    </div>
+                    <div class="aside-menu-price-items aside-menu-categories-items">
+                        <p>Up to $15</p>
+                        <p>$25 to $40</p>
+                        <p>$40 to $80</p>
+                        <p>$80 to $100</p>
+                        <p>$100 to $200</p>
+                    </div>
+                    <div class="aside-menu-min-max-items">
+                        <input type="number" class="aside-menu-min-item" placeholder="Min">
+                        <input type="number" class="aside-menu-max-item" placeholder="Max">
+                        <input type="submit" value="Go" class="aside-btn">
+                    </div>
+                </div>
+            </aside>
+            <section class="body-container-right">
+                <div class="product-images-container">
+                    <div class="product-image-top">
+                        <img src="./images/image1.jpg" alt="image1">
+                    </div>
+                    <div class="product-image-bottom-container">
+                        <div class="product-image-bottom left">
+                            <img src="./images/image2.jpg" alt="image2">
+                        </div>
+                        <div class="product-image-bottom center">
+                            <img src="./images/image3.jpg" alt="image3">
+                        </div>
+                        <div class="product-image-bottom right">
+                            <img src="./images/image4.jpg" alt="image4">
+                        </div>
+                    </div>
+                </div>
+                <article class="product-description-container">
+                    <p class="product-description-container-title">Jumper Laptop 13.3 Inch Full HD 1920 x 1080 IPS
+                        Microsoft 365 4GB RAM 128GB ROM</p>
+                    <div class="product-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-regular fa-star"></i><span class="rating">13 ratings</span>
+                    </div>
+                    <div>
+                        <p class="new-price"><del class="old-price">$100</del>$70</p>
+                    </div>
+                    <p class="product-description">Windows 10 laptop equipped with Intel Celeron dual-core processor,
+                        can achive multi-tasking. Ultra-low-power high-performance processor, with up to 2.4GHz peak
+                        turbo frequency.</p>
+                    <div class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</div>
+
+                </article>
+            </section>
+        </section>
+        <!-- BODY END-->
+        <!-- FOOTER START-->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-item">
+                    <p>Get to Know Us</p>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer-list-item">Careers</a>
+                            <a href="#" class="footer-list-item">About Us</a>
+                            <a href="#" class="footer-list-item">Amazon Science</a>
+                            <a href="#" class="footer-list-item">Amazon Pay</a>
+                            <a href="#" class="footer-list-item">Sell on Amazon</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <p>Get to Know Us</p>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer-list-item">Careers</a>
+                            <a href="#" class="footer-list-item">About Us</a>
+                            <a href="#" class="footer-list-item">Amazon Science</a>
+                            <a href="#" class="footer-list-item">Amazon Pay</a>
+                            <a href="#" class="footer-list-item">Sell on Amazon</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <p>Get to Know Us</p>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer-list-item">Careers</a>
+                            <a href="#" class="footer-list-item">About Us</a>
+                            <a href="#" class="footer-list-item">Amazon Science</a>
+                            <a href="#" class="footer-list-item">Amazon Pay</a>
+                            <a href="#" class="footer-list-item">Sell on Amazon</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <p>Get to Know Us</p>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer-list-item">Careers</a>
+                            <a href="#" class="footer-list-item">About Us</a>
+                            <a href="#" class="footer-list-item">Amazon Science</a>
+                            <a href="#" class="footer-list-item">Amazon Pay</a>
+                            <a href="#" class="footer-list-item">Sell on Amazon</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER END-->
+    </main>
+    <!-- MAIN END-->
+</body>
+
+</html>
